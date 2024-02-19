@@ -1,7 +1,8 @@
 # Creating a Recommendation System in Python
 
 ### Overview
-* Utilizes Matrix Factorization and KMeans to implement Collaborative filtering for movie predictions
+* Utilizes Matrix Factorization and KMeans to implement Collaborative filtering for movie predictions in a sparse dataset
+  * Sparsity means most of the weights are 0. This can lead to an increase in space and time efficiency
 * Data citation: F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. [Link to Paper](https://doi.org/10.1145/2827872)
 ### Loss curve (using ADAM optimizer and MSE)
 ![Loss curve](https://i.ibb.co/hR7WbCG/loss-visualization.png)
